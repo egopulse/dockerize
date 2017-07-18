@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --no-cache openssl
+RUN apk add --no-cache openssl curl wget
 
 ENV DOCKERIZE_VERSION v0.5.0
 RUN mkdir -p /dockerize/bin
